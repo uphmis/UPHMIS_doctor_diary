@@ -1,0 +1,55 @@
+
+.formText {
+    color: #d9d9d9;
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.formElement{
+    margin: auto;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+
+input, select,textarea {
+    margin: auto;
+    background: transparent;
+    width: 90%;
+    color: white;
+    font-size: 16px; 
+    border: 0; 
+    outline: none;
+    border-bottom: 1px solid white;
+    resize: none;
+    overflow: auto;
+}
+
+.item-select {
+    min-width: 90%;
+}
+
+option{
+    background-color: #1d5288;
+    color: white;
+    font-size: 16px;
+}
+
+#right-align {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: right;
+    text-align-last: right;
+}
+
+#right-align-disabled {
+    background: rgba(237, 237, 237,0.2);
+    text-align: right;
+    text-align-last: right;
+    margin-left: 5%;
+    margin-right: 5%;
+}
